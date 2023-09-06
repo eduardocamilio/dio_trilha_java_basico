@@ -1,3 +1,20 @@
-public class Facebook extends ServicoMensagem {
-    
+public class Facebook extends ServicoMensagemPoli {
+
+    public void enviarMensagem() {
+        validarConectadoInternet();
+        System.out.println("Enviando mensagem pelo Facebook");
+    }
+    public void receberMensagem() {
+        System.out.println("Recebendo mensagem pelo Facebook");
 }
+}
+/* Abstração
+public class FacebookMessenger extends ServicoMensagemInstantanea {
+	public void enviarMensagem() {
+		System.out.println("Enviando mensagem pelo Facebook Messenger");
+	}
+	public void receberMensagem() {
+		System.out.println("Recebendo mensagem pelo Facebook Messenger");
+	}
+}
+ */

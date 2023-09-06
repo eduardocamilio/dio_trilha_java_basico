@@ -18,3 +18,9 @@ public class ServicoMensagem {
 		System.out.println("Salvando o histórico da mensagem");
 	}
 }
+/* Abstração
+ public abstract class ServicoMensagemInstantanea {
+	public abstract void enviarMensagem();
+	public abstract void receberMensagem();	
+}
+ */
